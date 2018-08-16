@@ -6,8 +6,8 @@ from requests import Session
 
 session = Session()
 session.headers.update({
-    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36'
-    '(KHTML, like Gecko) Chrome/56.0.2924.28 Safari/537.36'})
+    'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36'
+    '(KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36'})
     
 def mil_seconds():
     return int(round(time() * 1000))
